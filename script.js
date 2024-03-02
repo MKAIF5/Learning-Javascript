@@ -18,3 +18,14 @@ let bool = true; //boolean
 let sym = Symbol("unique"); //symbol
 let undef = undefined; //undefined
 let unknown = null; //null
+
+// let str1 = "Hi";
+// let nr3 = 3;
+// let result2add = str1 + nr3;
+// let result2min = str1 - nr3;
+// let result2mul = str1 * nr3;
+// let result2div = str1 / nr3;
+// console.log(result2add);
+// console.log(result2min);
+// console.log(result2mul);
+// console.log(result2div);
