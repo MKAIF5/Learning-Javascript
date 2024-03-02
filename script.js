@@ -17,3 +17,4 @@ let bigNr = 12345678901234n; //bigint
 let bool = true; //boolean
 let sym = Symbol("unique"); //symbol
 let undef = undefined; //undefined
+let unknown = null; //null
