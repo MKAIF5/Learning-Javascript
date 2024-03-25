@@ -47,10 +47,15 @@
 // });
 
 // let a = prompt("enter your age")
-// if(a >18){
+// if(a >=18 && a <=20){
 //   console.log("true");
 // }
 
 // else{
 //   console.log("false");
 // }
+
+//index of array
+// let a = [10,20,56,45,45,234,76,45654,6767]
+// console.log(a[8]);
+
