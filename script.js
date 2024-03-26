@@ -30,8 +30,6 @@
 // console.log(result2mul);
 // console.log(result2div);
 
-
-
 // let myButtonElement = document.querySelector("#myButton");
 // let myInput = document.querySelector("#myInput");
 
@@ -55,7 +53,14 @@
 //   console.log("false");
 // }
 
-//index of array
-// let a = [10,20,56,45,45,234,76,45654,6767]
-// console.log(a[8]);
-
+// index of array
+// let a = [10, 20, 56, 45, 45, 234, 76, 45654, 6767];
+// console.log(a);
+// a.push(586)
+// console.log(a);
+// a.pop()
+// console.log(a);
+//for loop
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
