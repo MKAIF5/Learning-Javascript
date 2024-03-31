@@ -64,3 +64,15 @@
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i);
 // }
+
+// let userInp = +prompt("enter your table");
+// let line = prompt("enter table line")
+// for (i = 1; i <= line; i++) {
+//   console.log(userInp + "x" + line + "=" + userInp*i);
+// }
+
+// let sum = 0;
+// for (let i = 1; i <= 5; i++) {
+//   sum = sum + i
+// }
+// console.log(sum);
