@@ -109,7 +109,6 @@
 
 // practice
 
-
 // block scope
 // {
 //   let a = 10;
@@ -118,3 +117,23 @@
 // {
 //   let a = 5;
 // }
+
+// let age = +prompt("enter your age")
+
+// if(age >= 18){
+//     console.log("you can vote");
+// }
+
+// else{
+//     console.log("you cannot vote");
+// }
+
+//  let Dates = new Date();
+// // console.log(Dates.toString());
+// // console.log(Dates.toDateString());
+// // console.log(Dates.toLocaleDateString());
+// // console.log(Dates.toLocaleTimeString());
+// console.log(typeof Dates);
+
+// let myDate = new Date(2023, 0, 16);
+// console.log(myDate.toDateString());
