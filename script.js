@@ -137,3 +137,34 @@
 
 // let myDate = new Date(2023, 0, 16);
 // console.log(myDate.toDateString());
+
+// let Time = Date.now();
+// console.log(Math.floor(Time/1000));
+
+// let newDate = new Date();
+// console.log(newDate.getSeconds());
+
+// let myTime1 = dateFns.format(new Date(2024, 3, 20, 13, 45, 30), "MM/dd/yyy HH:mm:ss");
+
+// let myTime2 = dateFns.format(new Date(2024, 3, 20, 13, 45), "E dd/M/yyy HH.mm");
+
+// let myTime3 = dateFns.format(new Date(2024, 3, 20, 3, 45), "yyy-MM-dd H:mm EEEE");
+
+// let myTime4 = dateFns.format(new Date(2024, 3, 20, 13, 45, 30), "MMMM do, yyy hh.mm.ss a");
+
+// let myTime5 = dateFns.format(new Date(2024, 3, 20, 13, 45), "dd MMMM yyy 'at' hh:mm a");
+
+// console.log(myTime1);
+// console.log(myTime2);
+// console.log(myTime3);
+// console.log(myTime4);
+// console.log(myTime5);
+
+//functions
+
+// function add(number1, number2) {
+//   console.log(number1 + number2);
+// }
+
+// add(5, 5, 1, 5, 5, 4, 4, 5);
+
