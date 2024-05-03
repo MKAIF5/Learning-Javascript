@@ -163,8 +163,20 @@
 //functions
 
 // function add(number1, number2) {
-//   console.log(number1 + number2);
+//   let result = number1 + number2;
+//   return result;
 // }
 
-// add(5, 5, 1, 5, 5, 4, 4, 5);
+// const result = add(5, 5);
 
+// function login(username) {
+//    return `${username} login hai`;
+// }
+
+// console.log(login("kaif"));
+
+// function calculatePrize(...num1) {
+//   return num1;
+// }
+
+// console.log(calculatePrize(567, 56, 343, 23, 534, 234));
