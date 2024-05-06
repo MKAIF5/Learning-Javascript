@@ -180,3 +180,65 @@
 // }
 
 // console.log(calculatePrize(567, 56, 343, 23, 534, 234));
+
+const isAnagram = function (s, t) {
+  if (s.length === t.length) {
+    return false;
+  }
+
+  const sletters = {};
+
+  for(let char of s){
+    if(!sletters[char]){
+        sletters[char] = 1
+    }
+    else{
+        sletters[char]++
+    }
+  }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const check = (s) => {
+    let l = 0;
+    let r = s.length - 1;
+    while (l <= r){
+        if (s[l] === s[r]) {
+            l++;
+            r--;
+        }
+
+        else {
+            return false;
+        }
+
+    }
+
+    return true
+}
+
+
+
+let isPalindrome = function (s) {
+    const regex = /[^a-zA-Z]/g
+    const clean = s.replace(regex, '').toLowerCase()
+    return check(clean)
+};
+  
