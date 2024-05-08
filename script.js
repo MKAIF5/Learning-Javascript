@@ -200,45 +200,44 @@ const isAnagram = function (s, t) {
 
 
 
+// const check = (s) => {
+//     let l = 0;
+//     let r = s.length - 1;
+//     while (l <= r){
+//         if (s[l] === s[r]) {
+//             l++;
+//             r--;
+//         }
+
+//         else {
+//             return false;
+//         }
+
+//     }
+
+//     return true
+// }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-const check = (s) => {
-    let l = 0;
-    let r = s.length - 1;
-    while (l <= r){
-        if (s[l] === s[r]) {
-            l++;
-            r--;
-        }
-
-        else {
-            return false;
-        }
-
-    }
-
-    return true
-}
-
-
-
-let isPalindrome = function (s) {
-    const regex = /[^a-zA-Z]/g
-    const clean = s.replace(regex, '').toLowerCase()
-    return check(clean)
-};
+// let isPalindrome = function (s) {
+//     const regex = /[^a-zA-Z]/g
+//     const clean = s.replace(regex, '').toLowerCase()
+//     return check(clean)
+// };
   
+
+
+
+// const addDigits = (num) => {
+//     let sum = 0;
+//     while (num >= 10) {
+//         sum += num % 10;
+//         num = Math.floor(num / 10);
+//         if (num < 10) {
+//             num += sum;
+//             sum = 0;
+//         }
+//     }
+//     return num;
+// };
