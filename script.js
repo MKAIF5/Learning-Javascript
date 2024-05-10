@@ -238,3 +238,19 @@ const isAnagram = function (s, t) {
 // let checkes = values.slice(1,3);
 
 // console.log(checkes);
+
+let age = 15;
+
+switch (true) {
+  case age >= 15 && age <= 20:
+    console.log("AP JOB KARNE A SAKTE HO");
+    break;
+
+  case age > 20 && age <= 30:
+    console.log("AP NHI A SAKTE");
+    break;
+
+  default:
+    console.log("AP TO BILKUL NHI A SAKTE");
+    break;
+}
