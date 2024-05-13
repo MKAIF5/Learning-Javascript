@@ -239,18 +239,23 @@ const isAnagram = function (s, t) {
 
 // console.log(checkes);
 
-let age = 15;
+// let age = 15;
 
-switch (true) {
-  case age >= 15 && age <= 20:
-    console.log("AP JOB KARNE A SAKTE HO");
-    break;
+// switch (true) {
+//   case age >= 15 && age <= 20:
+//     console.log("AP JOB KARNE A SAKTE HO");
+//     break;
 
-  case age > 20 && age <= 30:
-    console.log("AP NHI A SAKTE");
-    break;
+//   case age > 20 && age <= 30:
+//     console.log("AP NHI A SAKTE");
+//     break;
 
-  default:
-    console.log("AP TO BILKUL NHI A SAKTE");
-    break;
-}
+//   default:
+//     console.log("AP TO BILKUL NHI A SAKTE");
+//     break;
+// }
+//QUIZ 2 PRACTICE
+
+let now = new Date("2024-5-13");
+let checkdate = now.setDate(19);
+console.log(checkdate);
