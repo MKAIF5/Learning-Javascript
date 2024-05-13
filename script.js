@@ -181,21 +181,21 @@
 
 // console.log(calculatePrize(567, 56, 343, 23, 534, 234));
 
-const isAnagram = function (s, t) {
-  if (s.length === t.length) {
-    return false;
-  }
+// const isAnagram = function (s, t) {
+//   if (s.length === t.length) {
+//     return false;
+//   }
 
-  const sletters = {};
+//   const sletters = {};
 
-  for (let char of s) {
-    if (!sletters[char]) {
-      sletters[char] = 1;
-    } else {
-      sletters[char]++;
-    }
-  }
-};
+//   for (let char of s) {
+//     if (!sletters[char]) {
+//       sletters[char] = 1;
+//     } else {
+//       sletters[char]++;
+//     }
+//   }
+// };
 
 // const check = (s) => {
 //     let l = 0;
