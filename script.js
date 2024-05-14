@@ -256,6 +256,6 @@
 // }
 //QUIZ 2 PRACTICE
 
-let now = new Date("2024-5-13");
-let checkdate = now.setDate(19);
-console.log(checkdate);
+// let now = new Date("2024-5-13");
+// let checkdate = now.setDate(19);
+// console.log(checkdate);
