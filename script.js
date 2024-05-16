@@ -305,3 +305,18 @@
 //   }
   
 //   myFunction();
+
+//JS OBJECTS 
+// let myName  = "kaif"
+
+// let smitStudent = {
+//     name: "kaif",
+//     age: "15",
+//     passion : ["cricket" , "web devepment"],
+//     class : "9th",
+//     text:{}
+// }
+
+// console.log(undefined.text);
+
+
