@@ -319,3 +319,19 @@
 
 // console.log(undefined.text);
 
+//CLASS CODE
+
+// let myName = "abrar";
+
+// let student = {
+//   key: "value",
+//   name: myName, // ye myName var ki value ko idher la kr save kare ga
+//   age: 25,
+//   roll: "WMA-29020",
+//   isAbsent: false,
+//   hobbies: ["cricket", "football", "web dev"], // array in object
+//   teacher: { name: "shehzad", age: 25 }, // object in object
+//   test: {}, // this is empty obj
+// };
+
+// console.log(undefined.age);
