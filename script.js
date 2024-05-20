@@ -332,3 +332,8 @@
 // };
 
 // console.log(undefined.age);
+<<<<<<< HEAD
+=======
+
+// console.log(+"10");
+>>>>>>> 3f059a6 (js practices)
