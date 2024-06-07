@@ -332,8 +332,12 @@
 // };
 
 // console.log(undefined.age);
-<<<<<<< HEAD
-=======
 
-// console.log(+"10");
->>>>>>> 3f059a6 (js practices)
+let count = 0
+
+for(i=0; i<=10; i++){
+  let count  = 0
+  count += i
+}
+
+console.log(i);
