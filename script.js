@@ -346,7 +346,7 @@ function calculatePriceTag(...num1) {
     return num1
 }
 
-console.log(calculatePriceTag(200));
+// console.log(calculatePriceTag(200));
 
 const user = {
     userName: "kaif",
@@ -357,4 +357,15 @@ function handleObject(anyObject){
     console.log(`username is ${anyObject.userName} price is ${anyObject.price}`);
 }
 
-handleObject(user)
+handleObject({
+    userName: "sam",
+    price: "1000"
+})
+
+const myArray = [100 ,200 ,300 ,500 ,900]
+
+function mySecondValue(getArray){
+    return getArray[3]
+}
+
+console.log(mySecondValue(myArray));
