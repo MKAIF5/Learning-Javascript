@@ -342,19 +342,19 @@
 
 // console.log(i);
 
-// function calculatePriceTag(...num1) {
-//     return num1
-// }
+function calculatePriceTag(...num1) {
+    return num1
+}
 
-// console.log(calculatePriceTag(200));
+console.log(calculatePriceTag(200));
 
-// const user = {
-//     userName: "kaif",
-//     prices: 399,
-// }
+const user = {
+    userName: "kaif",
+    prices: 399,
+}
 
-// function handleObject(anyObject){
-//     console.log(`username is ${anyObject.userName} price is ${anyObject.price}`);
-// }
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.userName} price is ${anyObject.price}`);
+}
 
-// handleObject(user)
+handleObject(user)
