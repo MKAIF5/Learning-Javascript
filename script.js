@@ -348,24 +348,34 @@ function calculatePriceTag(...num1) {
 
 // console.log(calculatePriceTag(200));
 
-const user = {
+// const user = {
+//     userName: "kaif",
+//     prices: 399,
+// }
+
+// function handleObject(anyObject){
+//     console.log(`username is ${anyObject.userName} price is ${anyObject.price}`);
+// }
+
+// handleObject({
+//     userName: "sam",
+//     price: "1000"
+// })
+
+// const myArray = [100 ,200 ,300 ,500 ,900]
+
+// function mySecondValue(getArray){
+//     return getArray[3]
+// }
+
+// console.log(mySecondValue(myArray));
+
+const user  = {
     userName: "kaif",
-    prices: 399,
+    price: 999,
+    welcomeMessage: function (){
+        console.log(`${this.userName} welcome to website`);
+    }
 }
 
-function handleObject(anyObject){
-    console.log(`username is ${anyObject.userName} price is ${anyObject.price}`);
-}
-
-handleObject({
-    userName: "sam",
-    price: "1000"
-})
-
-const myArray = [100 ,200 ,300 ,500 ,900]
-
-function mySecondValue(getArray){
-    return getArray[3]
-}
-
-console.log(mySecondValue(myArray));
+user.welcomeMessage()
