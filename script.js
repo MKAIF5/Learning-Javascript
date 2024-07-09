@@ -390,9 +390,19 @@ function calculatePriceTag(...num1) {
 // }
 // kaif()
 
+// Arrow Function Learn
 // const arrow = () =>{
 //     let locations  = 'karachi'
 //     console.log(this.locations);
 // }
 
 // arrow()
+
+// const addTwoNumbers = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// This is Called Implisit
+// const addTwoNumbers = (num1, num2) => (num1 + num2)
+// const addTwoNumbers = (num1, num2) => ({username: "kaif"})
+// console.log(addTwoNumbers(4, 7));
