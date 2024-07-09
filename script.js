@@ -432,10 +432,24 @@ function calculatePriceTag(...num1) {
 //        console.log(`sum ${name1}`); 
 //     })(4)
 
-const score = 200;
-if(score >= 100){
-    let power = "fly"
-    console.log(`your power is ${power}`); 
-}
+// if else condition
+// const score = 200;
+// if(score >= 100){
+//     let power = "fly"
+//     console.log(`your power is ${power}`); 
+// }
 
-console.log(`your power is ${power}`);
+// console.log(`your power is ${power}`);
+
+// const price = 1000;
+// if(price <=500){
+//     console.log("less than 500");
+// }
+
+// else if(price <= 750){
+//     console.log("less than 750");
+// }
+
+// else{
+//     console.log("price bigger than your value");
+// }
