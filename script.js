@@ -412,17 +412,21 @@ function calculatePriceTag(...num1) {
 // for (let i = 1; i <= 12; i++) {
 //     console.log(i);
 //     // const element = array[i];
-    
+
 // }
 
-(function chai(){
+(function chai() {
     console.log("DB Connected");
 })();
 
-(() =>{
+(() => {
     console.log("DB Connected Two");
 })();
 
-(() =>{
-    console.log("DB Connected Three");
-})()
+    ((name) => {
+        console.log(`DB Connected Three ${name}`);
+    })("kaif");
+
+    ((name1 , name2) =>{
+       console.log(`sum ${name1}`); 
+    })(4)
