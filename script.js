@@ -370,16 +370,29 @@ function calculatePriceTag(...num1) {
 
 // console.log(mySecondValue(myArray));
 
-const user  = {
-    userName: "kaif",
-    price: 999,
-    welcomeMessage: function (){
-        console.log(`${this.userName} welcome to website`);
-        // console.log(this);
-    }
-}
+// const user  = {
+//     userName: "kaif",
+//     price: 999,
+//     welcomeMessage: function (){
+//         console.log(`${this.userName} welcome to website`);
+//         // console.log(this);
+//     }
+// }
 
-user.welcomeMessage()
-user.userName = "kashif"
-user.welcomeMessage()
+// user.welcomeMessage()
+// user.userName = "kashif"
+// user.welcomeMessage()
 // console.log(this);
+
+// function kaif(){
+//     let userName  = "kashif"
+//     console.log(this.userName);
+// }
+// kaif()
+
+// const arrow = () =>{
+//     let locations  = 'karachi'
+//     console.log(this.locations);
+// }
+
+// arrow()
