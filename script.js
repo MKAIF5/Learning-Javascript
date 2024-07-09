@@ -406,3 +406,23 @@ function calculatePriceTag(...num1) {
 // const addTwoNumbers = (num1, num2) => (num1 + num2)
 // const addTwoNumbers = (num1, num2) => ({username: "kaif"})
 // console.log(addTwoNumbers(4, 7));
+
+// IIFE Bhai
+
+// for (let i = 1; i <= 12; i++) {
+//     console.log(i);
+//     // const element = array[i];
+    
+// }
+
+(function chai(){
+    console.log("DB Connected");
+})();
+
+(() =>{
+    console.log("DB Connected Two");
+})();
+
+(() =>{
+    console.log("DB Connected Three");
+})()
