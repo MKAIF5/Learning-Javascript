@@ -415,18 +415,20 @@ function calculatePriceTag(...num1) {
 
 // }
 
-(function chai() {
-    console.log("DB Connected");
-})();
+// Named IIFE
+// (function chai() {
+//     console.log("DB Connected");
+// })();
 
-(() => {
-    console.log("DB Connected Two");
-})();
+// // Unamed IIFE
+// (() => {
+//     console.log("DB Connected Two");
+// })();
 
-    ((name) => {
-        console.log(`DB Connected Three ${name}`);
-    })("kaif");
+//     ((name) => {
+//         console.log(`DB Connected Three ${name}`);
+//     })("kaif");
 
-    ((name1 , name2) =>{
-       console.log(`sum ${name1}`); 
-    })(4)
+//     ((name1 , name2) =>{
+//        console.log(`sum ${name1}`); 
+//     })(4)
