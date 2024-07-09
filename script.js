@@ -411,7 +411,6 @@ function calculatePriceTag(...num1) {
 
 // for (let i = 1; i <= 12; i++) {
 //     console.log(i);
-//     // const element = array[i];
 
 // }
 
@@ -432,3 +431,11 @@ function calculatePriceTag(...num1) {
 //     ((name1 , name2) =>{
 //        console.log(`sum ${name1}`); 
 //     })(4)
+
+const score = 200;
+if(score >= 100){
+    let power = "fly"
+    console.log(`your power is ${power}`); 
+}
+
+console.log(`your power is ${power}`);
