@@ -342,9 +342,9 @@
 
 // console.log(i);
 
-function calculatePriceTag(...num1) {
-    return num1
-}
+// function calculatePriceTag(...num1) {
+//     return num1
+// }
 
 // console.log(calculatePriceTag(200));
 
@@ -431,6 +431,12 @@ function calculatePriceTag(...num1) {
 //     ((name1 , name2) =>{
 //        console.log(`sum ${name1}`); 
 //     })(4)
+
+// variable ke name ke sath zaroorat nhi hai semi column ki
+// const value  =  (() => 100)()
+// const add = (() => 200)()
+// console.log(value);
+// console.log(add);
 
 // if else condition
 // const score = 200;
