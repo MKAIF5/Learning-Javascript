@@ -438,11 +438,22 @@
 // console.log(value);
 // console.log(add);
 
+// const data  = ( async () => await fetch())
+
+// const whatisyourName = () =>{
+//     console.log('my name is kaif');
+// }
+// whatisyourName()
+
+// ( (name) =>[
+//     console.log(`DB Connected Two ${name}`)
+// ])("kaif")
+
 // if else condition
 // const score = 200;
 // if(score >= 100){
 //     let power = "fly"
-//     console.log(`your power is ${power}`); 
+//     console.log(`your power is ${power}`);
 // }
 
 // console.log(`your power is ${power}`);
