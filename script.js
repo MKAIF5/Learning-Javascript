@@ -425,3 +425,7 @@
 // value1 = null ?? 30 ?? undefined ?? 10 ?? 20 
 // console.log(value1);
 
+//Ternary Operator
+
+// let TeaPrice = 100;
+// TeaPrice >=80 ? console.log("more than 80") : console.log("less than 80");
