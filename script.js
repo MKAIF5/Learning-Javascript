@@ -448,9 +448,17 @@
 //     }
 // }
 
-const myArray = ["babar", "rizwan", "shadab", "shaheen", "amir"];
-console.log(`length is ${myArray.length}`);
-for (let i = 0; i < myArray.length; i++){
-    const element  = myArray[i]
-    console.log(element);
-}
+// const myArray = ["babar", "rizwan", "shadab", "shaheen", "amir"];
+// console.log(`length is ${myArray.length}`);
+// for (let i = 0; i < myArray.length; i++){
+//     const element  = myArray[i]
+//     console.log(element);
+// }
+
+// for(let i=1; i<= 20; i++){
+//     if(i == 5){
+//         console.log("5 is number best");
+//         continue;
+//     }
+//     console.log(i);
+// } 
