@@ -429,3 +429,13 @@
 
 // let TeaPrice = 100;
 // TeaPrice >=80 ? console.log("more than 80") : console.log("less than 80");
+
+//for loop
+
+// for (i = 1; i <= 10; i++) {
+//     const element = i;
+//     if (element == 5) {
+//         console.log("5 number is best");
+//     }
+//     console.log(element);
+// }
