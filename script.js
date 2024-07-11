@@ -370,30 +370,36 @@
 
 // console.log(mySecondValue(myArray));
 
-let month = +prompt("enter your month")
+// let month = +prompt("enter your month")
 
-switch (month) {
-    case 1:
-        console.log("jan");
-        break;
-    case 2:
-        console.log("feb");
-        break;
-    case 3:
-        console.log("mar");
-        break;
-    case 4:
-        console.log("apr");
-        break;
-    case 5:
-        console.log("may");
-        break;
-    case 6:
-        console.log("jun");
-        break;
-    case 7:
-        console.log("jul");
-        break;
-    default:
-        console.log('beta month dalo');
-}
+// switch (month) {
+//     case 1:
+//         console.log("jan");
+//         break;
+//     case 2:
+//         console.log("feb");
+//         break;
+//     case 3:
+//         console.log("mar");
+//         break;
+//     case 4:
+//         console.log("apr");
+//         break;
+//     case 5:
+//         console.log("may");
+//         break;
+//     case 6:
+//         console.log("jun");
+//         break;
+//     case 7:
+//         console.log("jul");
+//         break;
+//     default:
+//         console.log('beta month dalo');
+// }
+
+// Falsy Values
+// 0 , -0 , "" , BigInt 0n , null , undefined , NaN;
+
+// Truthy Values
+// "0" , 'false' , " " , [] , {} , function(){};
