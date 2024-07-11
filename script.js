@@ -403,3 +403,17 @@
 
 // Truthy Values
 // "0" , 'false' , " " , [] , {} , function(){};
+
+// empty array check
+// const emptyArray = [];
+
+// if(emptyArray.length === 0){
+//     console.log("empty array");
+// }
+
+// empty object check
+// const emptyObject = {};
+
+// if(Object.keys(emptyObject).length === 0){
+//     console.log("empty object");
+// }
