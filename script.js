@@ -370,6 +370,8 @@
 
 // console.log(mySecondValue(myArray));
 
+// Control Flow
+
 // let month = +prompt("enter your month")
 
 // switch (month) {
@@ -417,3 +419,9 @@
 // if(Object.keys(emptyObject).length === 0){
 //     console.log("empty object");
 // }
+
+//Nullishing Colasing Operator
+// let value1;
+// value1 = null ?? 30 ?? undefined ?? 10 ?? 20 
+// console.log(value1);
+
