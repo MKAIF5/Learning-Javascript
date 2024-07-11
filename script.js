@@ -440,10 +440,17 @@
 //     console.log(element);
 // }
 
-for (let i = 2; i <= 10; i++) {
-    // console.log(`outer loop ${i}`);
-    for (let j = 1; j <= 10; j++) {
-        // console.log(`inner loop ${j} and outer loop ${i}`);
-        console.log(i + "*" + j + "=" + i*j);
-    }
+// for (let i = 2; i <= 10; i++) {
+//     // console.log(`outer loop ${i}`);
+//     for (let j = 1; j <= 10; j++) {
+//         // console.log(`inner loop ${j} and outer loop ${i}`);
+//         console.log(i + "*" + j + "=" + i*j);
+//     }
+// }
+
+const myArray = ["babar", "rizwan", "shadab", "shaheen", "amir"];
+console.log(`length is ${myArray.length}`);
+for (let i = 0; i < myArray.length; i++){
+    const element  = myArray[i]
+    console.log(element);
 }
