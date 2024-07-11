@@ -370,103 +370,30 @@
 
 // console.log(mySecondValue(myArray));
 
-// const user  = {
-//     userName: "kaif",
-//     price: 999,
-//     welcomeMessage: function (){
-//         console.log(`${this.userName} welcome to website`);
-//         // console.log(this);
-//     }
-// }
+let month = +prompt("enter your month")
 
-// user.welcomeMessage()
-// user.userName = "kashif"
-// user.welcomeMessage()
-// console.log(this);
-
-// function kaif(){
-//     let userName  = "kashif"
-//     console.log(this.userName);
-// }
-// kaif()
-
-// Arrow Function Learn
-// const arrow = () =>{
-//     let locations  = 'karachi'
-//     console.log(this.locations);
-// }
-
-// arrow()
-
-// const addTwoNumbers = (num1, num2) => {
-//     return num1 + num2
-// }
-
-// This is Called Implisit
-// const addTwoNumbers = (num1, num2) => (num1 + num2)
-// const addTwoNumbers = (num1, num2) => ({username: "kaif"})
-// console.log(addTwoNumbers(4, 7));
-
-// IIFE Bhai
-
-// for (let i = 1; i <= 12; i++) {
-//     console.log(i);
-
-// }
-
-// Named IIFE
-// (function chai() {
-//     console.log("DB Connected");
-// })();
-
-// // Unamed IIFE
-// (() => {
-//     console.log("DB Connected Two");
-// })();
-
-//     ((name) => {
-//         console.log(`DB Connected Three ${name}`);
-//     })("kaif");
-
-//     ((name1 , name2) =>{
-//        console.log(`sum ${name1}`); 
-//     })(4)
-
-// variable ke name ke sath zaroorat nhi hai semi column ki
-// const value  =  (() => 100)()
-// const add = (() => 200)()
-// console.log(value);
-// console.log(add);
-
-// const data  = ( async () => await fetch())
-
-// const whatisyourName = () =>{
-//     console.log('my name is kaif');
-// }
-// whatisyourName()
-
-// ( (name) =>[
-//     console.log(`DB Connected Two ${name}`)
-// ])("kaif")
-
-// if else condition
-// const score = 200;
-// if(score >= 100){
-//     let power = "fly"
-//     console.log(`your power is ${power}`);
-// }
-
-// console.log(`your power is ${power}`);
-
-// const price = 1000;
-// if(price <=500){
-//     console.log("less than 500");
-// }
-
-// else if(price <= 750){
-//     console.log("less than 750");
-// }
-
-// else{
-//     console.log("price bigger than your value");
-// }
+switch (month) {
+    case 1:
+        console.log("jan");
+        break;
+    case 2:
+        console.log("feb");
+        break;
+    case 3:
+        console.log("mar");
+        break;
+    case 4:
+        console.log("apr");
+        break;
+    case 5:
+        console.log("may");
+        break;
+    case 6:
+        console.log("jun");
+        break;
+    case 7:
+        console.log("jul");
+        break;
+    default:
+        console.log('beta month dalo');
+}
