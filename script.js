@@ -439,3 +439,11 @@
 //     }
 //     console.log(element);
 // }
+
+for (let i = 2; i <= 10; i++) {
+    // console.log(`outer loop ${i}`);
+    for (let j = 1; j <= 10; j++) {
+        // console.log(`inner loop ${j} and outer loop ${i}`);
+        console.log(i + "*" + j + "=" + i*j);
+    }
+}
